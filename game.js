@@ -1,6 +1,7 @@
 
 document.getElementById("tap").addEventListener("click", function () { //game start action
-    
+
+    document.querySelector(".insideroad").style.zIndex = '1';
     const bgm = new Audio("assets/bgmusic.m4a");  //game start music
     bgm.play();
     bgm.loop = true;
